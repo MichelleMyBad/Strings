@@ -5,7 +5,7 @@
 
 ## Sostituti alle funzioni Microsoft
 <details>
-<summary>Sostituto .Length()</summary>
+<summary>Sostituto a .Length()</summary>
 
 ```
 public int Lungo(char[] caratteri)
@@ -21,7 +21,7 @@ public int Lungo(char[] caratteri)
 </details>
 
 <details>
-<summary>Sostituto .ToLower()</summary>
+<summary>Sostituto a .ToLower()</summary>
 
 ```
 public char CharMin(char c)
@@ -40,7 +40,7 @@ public char CharMin(char c)
 </details>
 
 <details>
-<summary>Sostituto .ToUpper()</summary>
+<summary>Sostituto a .ToUpper()</summary>
 
 ```
 public char CharMaius(char c)
@@ -59,7 +59,7 @@ public char CharMaius(char c)
 </details>
 
 <details>
-<summary>Sostituto .IsLetter()</summary>
+<summary>Sostituto a .IsLetter()</summary>
 
 ```
 public bool Lettera(char c)
@@ -77,7 +77,7 @@ public bool Lettera(char c)
 </details>
 
 <details>
-<summary>Sostituto .IsLetterOrDigit()</summary>
+<summary>Sostituto a .IsLetterOrDigit()</summary>
 ```
 public bool LetteraNumero(char c)
 
