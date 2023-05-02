@@ -1,9 +1,31 @@
 # Strings
-## Programma C# per lo studio delle stringhe
 
-#### Programma C# per lo studio delle stringhe, trasformandole in char array e senza l'utilizzo di strumenti per la gestione delle stringhe forniti da Microsoft, come ToUpper/ToLower/.Length/IsLetter e simili 
-L'esercizio svolge una serie di operazioni su una stringa fornita dall'utente, ricreando e utilizzando le funzioni fornite da Microsoft negate come da consegna. Le operazioni svolte sono :
-- Trasformare la stringa tutta in maiuscolo
+## Descrizione
+#### Programma C# per lo studio delle stringhe. Le stringhe vengono trasformate in char array e, senza l'utilizzo di strumenti per la gestione delle stringhe forniti da Microsoft come ToUpper/ToLower/.Length/IsLetter e simili, il programma svolge una serie di operazioni sulla stringa fornita dall'utente, ricreando e utilizzando le funzioni nominate in precedenza (in quanto proibite).
+
+## Sostituti alle funzioni Microsoft
+<details>
+<summary></summary>
+</details>
+<details>
+<summary></summary>
+</details>
+<details>
+<summary></summary>
+</details>
+<details>
+<summary></summary>
+</details>
+<details>
+<summary></summary>
+</details>
+<details>
+<summary></summary>
+</details>
+
+<details>
+<summary>Trasformare la stringa tutta in maiuscolo</summary>
+
 ```
  public string Maiuscola(string phrase)
   {
@@ -15,8 +37,15 @@ L'esercizio svolge una serie di operazioni su una stringa fornita dall'utente, r
       return new String(maiuscola);
   }
 ```
-- Trasformare la stringa tutta in minuscolo
-- Rendere la stringa capitalizzata (es. buon giorno = Buon Giorno)
+</details>
+
+<details>
+<summary>Trasformare la stringa tutta in minuscolo</summary>
+</details>
+
+<details>
+<summary>Rendere la stringa capitalizzata (es. buon giorno = Buon Giorno)</summary>
+
 ```
         public string Capitalize(string phrase)
         {
@@ -44,10 +73,23 @@ L'esercizio svolge una serie di operazioni su una stringa fornita dall'utente, r
 
         }
 ```
-- Controllare se la stringa è palindroma
-- Invertire la stringa (es. ciao = oaic)
-- Contare quante parole sono presenti nella stringa inserita
-- Contare quante lettere sono presenti nella stringa inserita
+</details>
+
+<details>
+<summary>Controllare se la stringa è palindroma</summary>
+</details>
+
+<details>
+<summary>Invertire la stringa (es. ciao = oaic)</summary>
+</details>
+
+<details>
+<summary>Contare quante parole sono presenti nella stringa inserita</summary>
+</details>
+
+<details>
+<summary>Contare quante lettere sono presenti nella stringa inserita</summary>
+
 ```
 public int Lettere(string phrase)
 {
@@ -63,5 +105,12 @@ public int Lettere(string phrase)
     return counter;
 }
 ```
-- Controllare se la stringa è composta solo da caratteri alfanumerici
-- Controllare se la stringa è composta solo da caratteri alfabetici
+</details>
+
+<details>
+<summary>Controllare se la stringa è composta solo da caratteri alfanumerici</summary>
+</details>
+
+<details>
+<summary>Controllare se la stringa è composta solo da caratteri alfabetici</summary>
+</details>
