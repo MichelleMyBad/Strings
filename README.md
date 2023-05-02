@@ -1,7 +1,7 @@
 # Strings
 
 ## Descrizione
-#### Programma C# per lo studio delle stringhe. Le stringhe vengono trasformate in char array e, senza l'utilizzo di strumenti per la gestione delle stringhe forniti da Microsoft come ToUpper/ToLower/.Length/IsLetter e simili, il programma svolge una serie di operazioni sulla stringa fornita dall'utente, ricreando e utilizzando le funzioni nominate in precedenza (in quanto proibite).
+#### Programma C# per lo studio delle stringhe. Le stringhe vengono trasformate in char array e, senza l'utilizzo di strumenti per la gestione delle stringhe forniti da Microsoft come .ToUpper()/.Length()/.IsLetter() e simili, il programma svolge una serie di operazioni sulla stringa fornita dall'utente, ricreando e utilizzando le funzioni nominate in precedenza (in quanto proibite).
 
 ## Sostituti alle funzioni Microsoft
 <details>
@@ -21,7 +21,7 @@ public int Lungo(char[] caratteri)
 </details>
 
 <details>
-<summary>Sostituto ToLower()</summary>
+<summary>Sostituto .ToLower()</summary>
 
 ```
 public char CharMin(char c)
@@ -40,7 +40,7 @@ public char CharMin(char c)
 </details>
 
 <details>
-<summary>Sostituto ToUpper()</summary>
+<summary>Sostituto .ToUpper()</summary>
 
 ```
 public char CharMaius(char c)
@@ -59,7 +59,7 @@ public char CharMaius(char c)
 </details>
 
 <details>
-<summary>Sostituto IsLetter()</summary>
+<summary>Sostituto .IsLetter()</summary>
 
 ```
 public bool Lettera(char c)
@@ -77,7 +77,7 @@ public bool Lettera(char c)
 </details>
 
 <details>
-<summary>Sostituto IsLetterOrDigit()</summary>
+<summary>Sostituto .IsLetterOrDigit()</summary>
 ```
 public bool LetteraNumero(char c)
 
