@@ -7,7 +7,7 @@
 <details>
 <summary>Sostituto a .Length()</summary>
 
-```
+```c#
 public int Lungo(char[] caratteri)
 {
     int retVal = 0;
@@ -23,7 +23,7 @@ public int Lungo(char[] caratteri)
 <details>
 <summary>Sostituto a .ToLower()</summary>
 
-```
+```c#
 public char CharMin(char c)
 {
     if (c >= 'A' && c <= 'Z')
@@ -42,7 +42,7 @@ public char CharMin(char c)
 <details>
 <summary>Sostituto a .ToUpper()</summary>
 
-```
+```c#
 public char CharMaius(char c)
 {
     if (c >= 'a' && c <= 'z')
@@ -61,7 +61,7 @@ public char CharMaius(char c)
 <details>
 <summary>Sostituto a .IsLetter()</summary>
 
-```
+```c#
 public bool Lettera(char c)
 {
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
