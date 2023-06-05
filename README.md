@@ -78,10 +78,9 @@ public bool Lettera(char c)
 
 <details>
 <summary>Sostituto a .IsLetterOrDigit()</summary>
-```
+    
+```c#
 public bool LetteraNumero(char c)
-
-```
 {
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'))
     {
@@ -101,7 +100,7 @@ public bool LetteraNumero(char c)
 <details>
 <summary>Trasformare la stringa tutta in maiuscolo</summary>
 
-```
+```c#
 public string Maiuscola(string phrase)
 {
     char[] maiuscola = phrase.ToCharArray();
@@ -117,7 +116,7 @@ public string Maiuscola(string phrase)
 <details>
 <summary>Trasformare la stringa tutta in minuscolo</summary>
 
-```
+```c#
 public string Minuscola(string phrase)
 {
     char[] minuscola = phrase.ToCharArray();
@@ -133,7 +132,7 @@ public string Minuscola(string phrase)
 <details>
 <summary>Rendere la stringa capitalizzata (es. buon giorno = Buon Giorno)</summary>
 
-```
+```c#
 public string Capitalize(string phrase)
 {
 
@@ -165,7 +164,7 @@ public string Capitalize(string phrase)
 <details>
 <summary>Controllare se la stringa è palindroma</summary>
 
-```
+```c#
 public bool Palindroma(string phrase)
 {
     char[] frase = phrase.ToCharArray();
@@ -223,7 +222,7 @@ public bool Palindroma(string phrase)
 <details>
 <summary>Invertire la stringa (es. ciao = oaic)</summary>
 
-```
+```c#
 public string Reverse(string phrase)
 {
     char[] frase = phrase.ToCharArray();
@@ -255,7 +254,7 @@ public string Reverse(string phrase)
 <details>
 <summary>Contare quante parole sono presenti nella stringa inserita</summary>
 
-```
+```c#
 public int Parole(string phrase)
 {
     int counter = 0;
@@ -282,7 +281,7 @@ public int Parole(string phrase)
 <details>
 <summary>Contare quante lettere sono presenti nella stringa inserita</summary>
 
-```
+```c#
 public int Lettere(string phrase)
 {
     int counter = 0;
@@ -302,7 +301,7 @@ public int Lettere(string phrase)
 <details>
 <summary>Controllare se la stringa è composta solo da caratteri alfanumerici</summary>
 
-```
+```c#
 public bool CheckAlNum(string phrase)
 {
     bool messaggio = true;
@@ -322,7 +321,7 @@ public bool CheckAlNum(string phrase)
 <details>
 <summary>Controllare se la stringa è composta solo da caratteri alfabetici</summary>
 
-```
+```c#
 public bool CheckAl(string phrase)
 {
     bool messaggio = true;
