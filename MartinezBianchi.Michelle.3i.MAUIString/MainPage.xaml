@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MartinezBianchi.Michelle._3i.MAUIString.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label x:Name="txtMaiuscola" Text="....."/>
+            <Label x:Name="txtMinuscola" Text="....."/>
+            <Label x:Name="txtCapitalizzata" Text="....."/>
+            <Label x:Name="txtPalindroma" Text="....."/>
+            <Label x:Name="txtReverse" Text="....."/>
+            <Label x:Name="txtParole" Text="....."/>
+            <Label x:Name="txtLettere" Text="....."/>
+            <Label x:Name="txtCheckalnum" Text="....."/>
+            <Label x:Name="txtCheckal" Text="....."/>
+            <Editor Text="ciao" x:Name="edtTesto" FontSize="40" HeightRequest="150"/>
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
